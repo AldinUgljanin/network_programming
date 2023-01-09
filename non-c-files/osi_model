@@ -1,0 +1,31 @@
+1. Physical
+    - At this level we have specifications for things such as the voltage 
+    levels on an Ethernet cable, what each pin on a connector is for,
+    the radio frequency of Wi-Fi and the light flashes over an optic fiber.
+2. Data Link
+    - This level deals with protocols for directly communicating between 
+    two nodes. It defines how a direct message between nodes starts and ends
+    (framing), error detection and correction and flow control.
+3. Network
+    - The network layer provides the methodsto transmit data sequanves
+    (called packets) between nodes i different networks. It provides methods
+    to route packets from one node to another(without a direct physical 
+    connection) by transferring through many intermediate nodes.
+    This is the layer that the Internet Protocol is defined on.
+4. Transport
+    - At this layer, we have methods to reliably deliver variable length data 
+    between hosts. These methods deal with splitting up data, recomining it,
+    ensuring data arrives in order and so on.
+    The Transmission Control Protocol (TCP) and User Datagram Prtocol (UDP)
+    are commonly said to exist on this layer.
+5. Session
+    - This layer builds on the transport layer by adding method to establish,
+    checkpoint, suspend resume and terminate dialogs.
+6. Presentation
+    - This is the lowest layer at which data structure and presentaion for an
+    application are defined. Concerns such as data encoding, serialization, and
+    encryption are handled here.
+7. Application
+    - The  applications that the user interfaces with 
+    (for example, web browsers and email clients) exist here. These applications
+    make use of the services provided by the six lower layers.

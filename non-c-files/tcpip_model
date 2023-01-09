@@ -1,0 +1,14 @@
+1. Network Access
+    - On this later, physical connections and data farming happen.
+    Sending an Ethernet or Wi-Fi packet are examples of layer 1 concerns.
+2. Internet
+    - This layer deals with the concerns of addressing packets and routing them
+    overmultiple interconnection networks.It's at this layer that an IP address
+    is defined.
+3. Host-to-Host
+    - The host-to-host layer provides two protoclos, TCP and UDP, which we will
+    discuss in the next few chapters. These protocols address concerns such as
+    data order, data segmentation, network congestion and error correction.
+4. Process/Application
+    - The process/application later is where protocols such as HTTP, SMTP and
+    FTP are implemented.
