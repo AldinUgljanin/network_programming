@@ -4,6 +4,7 @@
 #endif
 #include <winsock2.h>
 #include <ws2tcpip.h>
+// VS comiler flag
 #pragma comment(lib, "ws2_32.lib")
 
 #else
